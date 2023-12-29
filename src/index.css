@@ -1,0 +1,23 @@
+:root {
+  /* COLORS */
+  --text-color: #0b0205;
+  --background-color: #fef8fa;
+  --primary-color: #d93974;
+  --secondary-color: #8be9b5;
+  --accent-color: #5bb0df;
+  
+  /* FONTS */
+  --headings-font: Poppins;
+  --body-font: Poppins;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-family: var(--body-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headings-font);
+}
+
